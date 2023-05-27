@@ -1,0 +1,29 @@
+.navBar{
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  width:96px;
+  height: 100vh;
+  border: 2px solid rgba(153, 143, 8, 0.644);
+  position: fixed;
+  background-color:rgba(153, 143, 8, 0.644);
+}
+
+.navBar-icon{
+  width:56px;
+  height:56px;
+  margin-block:8px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.logo-container{
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 8px;
+  width: 20px;
+  cursor: pointer;
+}
+.navBar-logo{
+  width: 96px;
+}

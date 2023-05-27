@@ -1,0 +1,18 @@
+.contact-section{
+  margin-left:104px;
+  width: 92vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.contact-title{
+  margin-bottom: 0px;
+}
+.comp-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}

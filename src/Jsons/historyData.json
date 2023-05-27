@@ -1,0 +1,19 @@
+{
+ "History": [{
+  "id":1,
+  "text":"En el año 2009 nos comprometimos con traer una nueva forma de ver la vida a la ciudad, por eso creamos Triuno, no solo como una tienda de articulos, si no como un lugar de sanacion y armonia.",
+  "photo1":"src//assets//historyImg//entrada.jpeg",
+  "photo2":"src//assets//historyImg//ayuda.jpg"
+ },
+ {
+  "id":2,
+  "text":"Luego de 14 años disfrutamos los frutos de nuestro esfuerzo, compartiendo con nustros clientes y conociendo como mejoro su calidad de vida gracias a nuestra presencia en la ciudad.",
+  "photo1":"src//assets//historyImg//frascos.jpg",
+  "photo2":"src//assets//historyImg//genteMeditando.jpg"
+ },{
+  "id":3,
+  "text":"Nuestro presente nos encanta, pero queremos poder llegar a mas gente con nuestra filosofia de vida, te invitamos a que nos conozcas y encares a una mejor vida.",
+  "photo1":"src//assets//historyImg//legumbres.jpg",
+  "photo2":"src//assets//historyImg//shop.jpg"
+ }]
+}

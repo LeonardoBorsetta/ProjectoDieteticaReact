@@ -1,0 +1,92 @@
+.service-section{
+  margin-left:104px;
+  width: 92vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+.service-article{
+  width: 392px;
+  border: rgba(245, 229, 9, 0.363) solid 4px;
+  border-radius: 8px;
+  background-color: rgba(163, 157, 74, 0.726);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin-inline:8px;
+  transition: all 0.1s ease-in-out;
+}
+.service-img{
+  width:320px;
+  border-radius: 8px;
+  height: 200px;
+  align-self: center;
+}
+.service-name{
+  align-self: center;
+  font-size:32px;
+  margin-block:16px;
+  color: rgba(24, 23, 1, 0.918);
+  background-color: rgb(240, 231, 110);
+  padding-block:8px;
+  padding-inline:16px;
+  border-radius: 8px;
+}
+.service-desc{
+  align-self: center;
+  width: 320px;
+  text-align: center;
+  font-size: 18px;
+  color:rgba(24, 23, 1, 0.863);
+  background-color: rgb(240, 231, 110);
+  padding-block:8px;
+  padding-inline:16px;
+  border-radius: 8px;
+}
+.more-btn{
+  color: rgb(24, 23, 1);
+  align-self: center;
+  font-family: "Source Serif Pro";
+  font-weight: 600;
+  font-size: 18px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  cursor: pointer;
+  background-color: rgba(153, 143, 8, 0.644);
+  border: rgba(245, 229, 9, 0.363) solid 2px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.more-btn:hover{
+  margin-bottom: 4px;
+  height: 47px;
+  width: 123px;
+  background-color:rgba(216, 204, 38, 0.644);
+}
+.closing-Btn{
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: beige;
+  background-color: rgba(53, 50, 39, 0.76);
+  position: absolute;
+  top: 4450px;
+  left: 78%;
+  cursor: pointer;
+}
+.closing-Btn:hover{
+  background-color: rgb(53, 50, 39);
+}

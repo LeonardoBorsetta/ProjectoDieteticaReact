@@ -1,0 +1,28 @@
+.telYMail-body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(243, 243, 181);
+  box-shadow: 0px 0px 8px rgb(83, 83, 37);
+  margin-block: 32px;
+  width: 92vw;
+}
+.telYMail-title{
+  text-align: center;
+  font-size: 32px;
+  height: 32px;
+  padding-block: 32px;
+  margin: 0px;
+}
+.telYMail-container img{
+  width: 48px;
+}
+.telYMail-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50vw;
+  margin-bottom: 32px;
+}

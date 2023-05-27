@@ -1,0 +1,63 @@
+.home{
+  padding-block:0px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 600px;
+}
+.home-logo{
+  width: 360px;
+  position: relative;
+  align-self: center;
+  margin: 120px;
+  margin-left:200px;
+}
+.card{
+  border: 6px solid rgba(128, 128, 113, 0.253);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+  margin-left:120px;
+}
+.home-slogan{
+  font-family: "Source Serif Pro";
+  font-size: 56px;
+  width: 480px;
+  text-align: center;
+  margin-block: 20px;
+  color: rgb(36, 35, 0);
+}
+
+.under{
+  font-style: italic;
+  color: rgb(19, 71, 8);
+  margin-top: -8px;
+  font-size: 72px;
+}
+
+.home-button{
+  color: rgb(24, 23, 1);
+  align-self: center;
+  font-family: "Source Serif Pro";
+  font-weight: 600;
+  font-size: 32px;
+  margin-block: 32px;
+  padding-inline: 32px;
+  padding-block: 16px;
+  cursor: pointer;
+  background-color: rgba(153, 143, 8, 0.644);
+  border: rgba(245, 229, 9, 0.363) solid 2px;
+  border-radius: 8px;
+  transition: all 0.1s ease-in-out;
+}
+
+.home-button:hover{
+  transform: translateY(-4px);
+  border: rgba(206, 192, 6, 0.932) solid 2px;
+  box-shadow:rgba(245, 229, 9, 0.849) ;
+}
