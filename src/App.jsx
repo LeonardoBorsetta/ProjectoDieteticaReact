@@ -21,6 +21,7 @@ function App() {
     <Servicies/>
     <Contact/>
     </div>
+    <h5>Acualizado 30/5</h5>
    </>
   )
 }
