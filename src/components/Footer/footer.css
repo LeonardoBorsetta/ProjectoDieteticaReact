@@ -1,0 +1,30 @@
+.footer-body{
+  height:200px;
+  background-color:rgb(32, 32, 30);
+  color: rgb(136, 136, 121);
+  display:flex;
+  flex-direction: column;
+}
+.footer-title{
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.footer-content{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.list{
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+.links{
+  text-decoration: none;
+  color: rgb(136, 136, 121);
+}
+.copy-tag{
+  text-align: center;
+}

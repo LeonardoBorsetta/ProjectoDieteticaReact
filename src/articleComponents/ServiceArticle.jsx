@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import servicesJson from '../Jsons/services.json'
 import InfoBox from "../components/InfoBox/InfoBox"
 
 
 function ServiceArticle() {
+
   const [showInfo, setShowInfo] = useState("");
+  const InfoBoxRef = useRef()
 
   return (
     <>
@@ -17,17 +19,20 @@ function ServiceArticle() {
           <p className='service-desc'>{serv.desc}</p>
           <button className='more-btn' onClick={()=>{
             setShowInfo(serv.id);
-            scrollTo(0,4400)
           }}>Saber mas</button>
       </article>)
       })}
     </div>
-    {showInfo 
-      ? <>
-          <InfoBox showInfo={showInfo}/>
-          <button className="closing-Btn" onClick={()=>{setShowInfo("")}}>X</button>
-        </>
-      : ""}
+      <div ref={InfoBoxRef} className='infobox-container'>
+        {showInfo 
+          ? <>
+              <InfoBox showInfo={showInfo}/>
+              <button className="closing-Btn" onClick={()=>{setShowInfo("")}} >X</button>
+              {console.log(InfoBoxRef.current)}
+              {InfoBoxRef.current.scrollIntoView({behavior:"smooth"})}
+            </>
+          : ""}
+      </div>
     </>
   )
 }

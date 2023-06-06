@@ -7,23 +7,70 @@
   border: 2px solid rgba(153, 143, 8, 0.644);
   position: fixed;
   background-color:rgba(153, 143, 8, 0.644);
+  opacity: 0.01;
+  transition: all 0.3s ease;
+  animation: increaseOp 2s linear 0s 1 forwards;
 }
 
 .navBar-icon{
   width:56px;
   height:56px;
-  margin-block:8px;
+  margin-top:16px;
+  margin-bottom:-64px;
   margin-left: 16px;
   cursor: pointer;
 }
 
+.navBar-icon-desc{
+  color: beige;
+  background-color: rgba(44, 44, 40, 0.705);
+  padding-block:2px;
+  padding-inline:4px;
+  text-align: center;
+  position: relative;
+  top:-0px;
+  left: 40px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  border-radius: 2px;
+}
+
+.navBar-icon-desc:hover{
+  opacity: 1;
+}
+
+.icon-container{
+  overflow: scroll;
+  height: fit-content;
+}
+
 .logo-container{
-  position: fixed;
-  bottom: 0px;
-  margin-bottom: 8px;
-  width: 20px;
+  margin-top: 24px;
   cursor: pointer;
 }
 .navBar-logo{
   width: 96px;
+}
+
+.toogle-navBar-button{
+  display: none;
+  position: fixed;
+  margin:16px;
+  left: 0px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+@media (max-width : 1200px){
+  .navBar{
+    opacity: 0;
+    left:-120px;
+  }
+  .toogle-navBar-button{
+    display: block;
+  }
 }

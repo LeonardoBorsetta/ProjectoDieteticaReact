@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  transition: all 0.1s ease;
 }
 .services{
   display: flex;
@@ -83,10 +84,27 @@
   color: beige;
   background-color: rgba(53, 50, 39, 0.76);
   position: absolute;
-  top: 4450px;
-  left: 78%;
+  top: 16px;
+  left: 97%;
   cursor: pointer;
 }
 .closing-Btn:hover{
   background-color: rgb(53, 50, 39);
+}
+.infobox-container{
+  position: relative;
+  align-self: center;
+  height: 0px;
+  padding-top: 64px;
+  top: -864px;
+}
+
+@media (max-width: 800px) {
+  .service-article{
+    margin-left: 0px;
+    margin-right: 64px;
+  }
+  .services-title{
+    margin-right: 56px;
+  }
 }

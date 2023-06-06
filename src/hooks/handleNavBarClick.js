@@ -1,6 +1,9 @@
 export default function handleClick(event){
 
-  const button = event.target.alt;
+  let button = event.target.alt;
+  button ? button : button = event.target.id;
+  
+  console.log(button)
 
   if(button == "To Home"){
     const target = document.querySelector("#home");

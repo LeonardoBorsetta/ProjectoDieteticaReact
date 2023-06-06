@@ -6,6 +6,9 @@ import History from './components/History/History'
 import Products from './components/Products/Products'
 import Servicies from './components/Servicies/Servicies'
 import Contact from './components/Contact/Contact'
+import Partners from './components/Partners/Partners'
+import Footer from './components/Footer/Footer'
+import Loader from './components/Loader/Loader'
 
 function App() {
 
@@ -20,8 +23,9 @@ function App() {
     <Products/>
     <Servicies/>
     <Contact/>
+    <Partners/>
     </div>
-    <h5>Acualizado 30/5</h5>
+    <Footer/>
    </>
   )
 }

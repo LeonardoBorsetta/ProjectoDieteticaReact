@@ -5,7 +5,7 @@
   align-content: center;
   background-color: rgb(243, 243, 181);
   box-shadow: 0px 0px 8px rgb(83, 83, 37);
-  margin-block: 32px;
+  margin-block: 16px;
   width: 92vw;
 }
 .telYMail-title{
@@ -22,7 +22,28 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 50vw;
   margin-bottom: 32px;
+}
+.telYMail-container div{
+  text-align: center;
+  width: 300px;
+  padding-block:16px;
+  padding-inline:32px;
+  background-color: beige;
+  border-radius: 8px;
+  margin-inline:8px;
+}
+
+@media (max-width: 800px) {
+  .telYMail-container div{
+    width: 33vw;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .telYMail-container div{
+    margin-left: 25%;
+  }
+  
 }

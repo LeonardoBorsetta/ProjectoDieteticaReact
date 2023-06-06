@@ -16,3 +16,9 @@
   flex-wrap: wrap;
   align-content: center;
 }
+
+@media (max-width: 1150px) {
+  .contact-section{
+    margin-left: 64px;
+  }
+}
