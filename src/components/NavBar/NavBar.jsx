@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import "./navBar.css"
 import handleClick from '../../hooks/handleNavBarClick'
 import toogleNavBar from '../../hooks/toogleNavBar'
+import homeIcon from '../../assets/navBarimg/homeIcon.png'
 
 function NavBar() {
 
@@ -16,7 +17,7 @@ function NavBar() {
         <img src="src\assets\logoDietetica.png" alt="Bienestar-Logo" className='navBar-logo'/>
       </div>
       <div className="icons-container">
-        <img onClick={handleClick} src="src\assets\navBarimg\homeIcon.png" alt="To Home" className='navBar-icon' /><p className='navBar-icon-desc' onClick={handleClick} id="To Home">To Home</p>
+        <img onClick={handleClick} src={homeIcon} alt="To Home" className='navBar-icon' /><p className='navBar-icon-desc' onClick={handleClick} id="To Home">To Home</p>
         <img onClick={handleClick} src="src\assets\navBarimg\historyIcon.png" alt="To History" id="To History"  className='navBar-icon' /><p className='navBar-icon-desc' onClick={handleClick} id="To History">To History</p>
         <img onClick={handleClick} src="src\assets\navBarimg\productsIcon.png" alt="To Products" id="To Products" className='navBar-icon' /><p className='navBar-icon-desc' onClick={handleClick} id="To Products">To Products</p>
         <img onClick={handleClick} src="src\assets\navBarimg\serviceIcon.png" alt="To Services"  className='navBar-icon' /><p className='navBar-icon-desc' onClick={handleClick} id='To Services'>To Services</p>
