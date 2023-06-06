@@ -1,0 +1,49 @@
+.telYMail-body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(243, 243, 181);
+  box-shadow: 0px 0px 8px rgb(83, 83, 37);
+  margin-block: 16px;
+  width: 92vw;
+}
+.telYMail-title{
+  text-align: center;
+  font-size: 32px;
+  height: 32px;
+  padding-block: 32px;
+  margin: 0px;
+}
+.telYMail-container img{
+  width: 48px;
+}
+.telYMail-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.telYMail-container div{
+  text-align: center;
+  width: 300px;
+  padding-block:16px;
+  padding-inline:32px;
+  background-color: beige;
+  border-radius: 8px;
+  margin-inline:8px;
+}
+
+@media (max-width: 800px) {
+  .telYMail-container div{
+    width: 33vw;
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .telYMail-container div{
+    margin-left: 25%;
+  }
+  
+}
