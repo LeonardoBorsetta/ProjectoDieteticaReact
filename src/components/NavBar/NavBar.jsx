@@ -6,8 +6,9 @@ import homeIcon from '../../assets/navBarimg/homeIcon.png'
 import historyIcon from '../../assets/navBarimg/historyIcon.png'
 import productIcon from '../../assets/navBarimg/productsIcon.png'
 import servicesIcon from '../../assets/navBarimg/serviceIcon.png'
-import contactIcon from '../../assets/navBarimg/contactoIcon.png'
+import contactIcon from '../../assets/navBarimg/contactoIcon.jpg'
 import partnersIcon from '../../assets/navBarimg/partnersIcon.png'
+import logoDietetica from '../../assets/logoDietetica.png'
 
 function NavBar() {
 
@@ -19,7 +20,7 @@ function NavBar() {
     <button onClick={()=>{toogleNavBar({bar : navBarRef, button:buttonRef})}} className='toogle-navBar-button' ref={buttonRef}>Menu</button>
     <div className="navBar" ref={navBarRef}>
       <div className="logo-container">
-        <img src="src\assets\logoDietetica.png" alt="Bienestar-Logo" className='navBar-logo'/>
+        <img src={logoDietetica} alt="Bienestar-Logo" className='navBar-logo'/>
       </div>
       <div className="icons-container">
         <img onClick={handleClick} src={homeIcon} alt="To Home" className='navBar-icon' /><p className='navBar-icon-desc' onClick={handleClick} id="To Home">To Home</p>
